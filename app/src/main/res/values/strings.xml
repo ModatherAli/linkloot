@@ -1,3 +1,169 @@
 <resources>
     <string name="app_name">LinkLoot</string>
+
+    <!-- Navigation & Top Bar -->
+    <string name="nav_extract">Extract</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_history">History</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+
+    <!-- Extract Screen -->
+    <string name="extract_hero_title">Discover &amp; Save Web Media</string>
+    <string name="extract_hero_subtitle">Paste any website link to inspect images, videos &amp; HLS streams</string>
+    <string name="url_input_label">Website URL</string>
+    <string name="url_input_placeholder">https://example.com/gallery</string>
+    <string name="action_analyze">Analyze</string>
+    <string name="action_paste">Paste</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_deep_scan">Deep WebView Scan</string>
+    <string name="action_interactive_browser">Interactive Browser</string>
+    <string name="action_more_options">More options</string>
+    <string name="clipboard_chip_label">Paste: %1$s</string>
+    <string name="error_invalid_url">Enter a valid HTTP or HTTPS URL</string>
+    <string name="error_extraction_failed">Could not analyze page: %1$s</string>
+
+    <!-- Extraction Stages -->
+    <string name="stage_normalizing">Normalizing link…</string>
+    <string name="stage_fast_html">Scanning HTML &amp; metadata…</string>
+    <string name="stage_webview">Rendering dynamic page in WebView…</string>
+    <string name="stage_probing">Probing file sizes &amp; stream variants…</string>
+    <string name="stage_saving">Saving results…</string>
+    <string name="stage_done">Analysis complete</string>
+    <string name="extraction_counters">%1$d images · %2$d videos found</string>
+    <string name="using_webview_badge">WebView Engine</string>
+
+    <!-- Gallery Tabs, Filters & Sort -->
+    <string name="tab_all">All (%1$d)</string>
+    <string name="tab_images">Images (%1$d)</string>
+    <string name="tab_videos">Videos (%1$d)</string>
+    <string name="filter_hide_small">Hide small icons</string>
+    <string name="filter_show_all">Show all (%1$d hidden)</string>
+    <string name="sort_default">Default</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_type">Type</string>
+    <string name="empty_extract_title">Ready to loot media</string>
+    <string name="empty_extract_subtitle">Enter or share any URL above, or use Interactive Browser for login-gated pages.</string>
+    <string name="empty_filtered_title">No media matches this filter</string>
+    <string name="empty_filtered_subtitle">Try disabling the small icon filter or switching tabs.</string>
+    <string name="try_deep_scan_hint">No media detected in static HTML. Try Deep WebView Scan or Interactive Browser.</string>
+
+    <!-- Multi-select & Batch Bar -->
+    <string name="selected_count">%1$d selected</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_deselect_all">Clear selection</string>
+    <string name="action_download_selected">Download (%1$d)</string>
+    <string name="action_download">Download</string>
+    <string name="action_preview">Preview</string>
+    <string name="badge_hls">HLS</string>
+    <string name="badge_encrypted">DRM / Keyed</string>
+    <string name="unknown_size">Size unknown</string>
+    <string name="queued_downloads_snackbar">Queued %1$d download(s)</string>
+    <string name="storage_permission_required">Storage permission is required to save files to Downloads/LinkLoot</string>
+    <string name="encrypted_hls_warning">This HLS stream is key-encrypted/DRM protected and cannot be downloaded directly.</string>
+
+    <!-- HLS Quality Sheet -->
+    <string name="hls_select_quality_title">Select Video Quality</string>
+    <string name="hls_select_quality_subtitle">Choose an unencrypted stream variant to download</string>
+    <string name="hls_variant_bitrate">%1$s kbps</string>
+    <string name="hls_download_best">Download Best Quality</string>
+
+    <!-- Media Preview Sheet -->
+    <string name="preview_title">Media Preview</string>
+    <string name="preview_counter">%1$d / %2$d</string>
+    <string name="preview_metadata">Details &amp; Metadata</string>
+    <string name="meta_url">Resolved URL</string>
+    <string name="meta_dimensions">Dimensions</string>
+    <string name="meta_format">Format</string>
+    <string name="meta_mime">MIME Type</string>
+    <string name="meta_size">File Size</string>
+    <string name="meta_duration">Duration</string>
+    <string name="meta_source_page">Source Page</string>
+    <string name="action_copy_link">Copy Link</string>
+    <string name="copied_to_clipboard">Link copied to clipboard</string>
+    <string name="cd_mute">Mute</string>
+    <string name="cd_unmute">Unmute</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_pause">Pause</string>
+    <string name="video_playback_error">Unable to preview this video stream</string>
+
+    <!-- Interactive Browser -->
+    <string name="browser_title">Interactive Browser</string>
+    <string name="browser_captured_pill">%1$d images · %2$d videos captured</string>
+    <string name="browser_import_action">Import Captured Media</string>
+    <string name="browser_reload">Reload</string>
+    <string name="browser_forward">Forward</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_active_tab">Active (%1$d)</string>
+    <string name="downloads_completed_tab">Completed (%1$d)</string>
+    <string name="action_pause_all">Pause All</string>
+    <string name="action_resume_all">Resume All</string>
+    <string name="action_clear_completed">Clear List</string>
+    <string name="status_queued">Queued</string>
+    <string name="status_downloading">Downloading</string>
+    <string name="status_muxing">Muxing MP4…</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_completed">Saved</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="hls_segments_progress">Segments: %1$d / %2$d</string>
+    <string name="empty_active_downloads_title">No active downloads</string>
+    <string name="empty_active_downloads_subtitle">Items you queue from Extract will appear here with pause &amp; resume support.</string>
+    <string name="empty_completed_downloads_title">No completed downloads yet</string>
+    <string name="empty_completed_downloads_subtitle">Saved files appear in Downloads/LinkLoot.</string>
+    <string name="no_viewer_app_error">No app found to open this file</string>
+
+    <!-- Foreground Notification -->
+    <string name="notif_channel_name">LinkLoot Downloads</string>
+    <string name="notif_channel_desc">Shows progress for active media downloads</string>
+    <string name="notif_downloading_title">Downloading %1$d item(s)</string>
+    <string name="notif_muxing_text">Finalizing video %1$s…</string>
+    <string name="notif_progress_text">%1$s · %2$d%%</string>
+
+    <!-- History Screen -->
+    <string name="history_search_placeholder">Search analyzed links or domains…</string>
+    <string name="history_counts">%1$d images · %2$d videos</string>
+    <string name="action_rescan">Re-scan</string>
+    <string name="empty_history_title">No extraction history</string>
+    <string name="empty_history_subtitle">Links you analyze are cached locally for instant offline browsing.</string>
+
+    <!-- Settings Sheet -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_mode">Theme Mode</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Material You Dynamic Color</string>
+    <string name="settings_dynamic_color_desc">Adapt accent colors from wallpaper (Android 12+)</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+
+    <string name="settings_extraction">Extraction &amp; Filtering</string>
+    <string name="settings_hide_small_media">Filter Small Icons &amp; Pixels</string>
+    <string name="settings_hide_small_media_desc">Hide tracking pixels &amp; icons under 100×100 px by default</string>
+    <string name="settings_auto_webview">Auto WebView Fallback</string>
+    <string name="settings_auto_webview_desc">Automatically inspect JS-rendered pages when HTML scan finds sparse media</string>
+
+    <string name="settings_downloads">Downloads &amp; Storage</string>
+    <string name="settings_subfolder_org">Subfolder Organization</string>
+    <string name="subfolder_by_type">Images &amp; Videos</string>
+    <string name="subfolder_by_domain">Domain + Media Type</string>
+    <string name="settings_concurrent_downloads">Max Concurrent Downloads: %1$d</string>
+
+    <string name="settings_privacy">Privacy &amp; Data</string>
+    <string name="settings_clear_history">Clear Extraction History</string>
+    <string name="settings_clear_cookies">Clear WebView Cookies &amp; Cache</string>
+    <string name="history_cleared_snackbar">Extraction history cleared</string>
+    <string name="cookies_cleared_snackbar">Cookies and WebView cache cleared</string>
 </resources>

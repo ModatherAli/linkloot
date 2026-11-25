@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">LinkLoot</string>
+
+    <!-- Navigation & Top Bar -->
+    <string name="nav_extract">استخراج</string>
+    <string name="nav_downloads">التنزيلات</string>
+    <string name="nav_history">السجل</string>
+    <string name="cd_settings">الإعدادات</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_close">إغلاق</string>
+
+    <!-- Extract Screen -->
+    <string name="extract_hero_title">اكتشف واحفظ وسائط الويب</string>
+    <string name="extract_hero_subtitle">الصق أي رابط موقع لاستخراج الصور والفيديوهات وبثوث HLS</string>
+    <string name="url_input_label">رابط الموقع</string>
+    <string name="url_input_placeholder">https://example.com/gallery</string>
+    <string name="action_analyze">تحليل</string>
+    <string name="action_paste">لصق</string>
+    <string name="action_clear">مسح</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_deep_scan">فحص عميق عبر المتصفح</string>
+    <string name="action_interactive_browser">المتصفح التفاعلي</string>
+    <string name="action_more_options">خيارات إضافية</string>
+    <string name="clipboard_chip_label">لصق: %1$s</string>
+    <string name="error_invalid_url">أدخل رابط HTTP أو HTTPS صالحاً</string>
+    <string name="error_extraction_failed">تعذر تحليل الصفحة: %1$s</string>
+
+    <!-- Extraction Stages -->
+    <string name="stage_normalizing">جارٍ تجهيز الرابط…</string>
+    <string name="stage_fast_html">جارٍ فحص HTML والبيانات الوصفية…</string>
+    <string name="stage_webview">جارٍ تشغيل الصفحة الديناميكية في WebView…</string>
+    <string name="stage_probing">جارٍ فحص أحجام الملفات وجودات البث…</string>
+    <string name="stage_saving">جارٍ حفظ النتائج…</string>
+    <string name="stage_done">اكتمل التحليل</string>
+    <string name="extraction_counters">تم العثور على %1$d صورة · %2$d فيديو</string>
+    <string name="using_webview_badge">محرك WebView</string>
+
+    <!-- Gallery Tabs, Filters & Sort -->
+    <string name="tab_all">الكل (%1$d)</string>
+    <string name="tab_images">الصور (%1$d)</string>
+    <string name="tab_videos">الفيديو (%1$d)</string>
+    <string name="filter_hide_small">إخفاء الأيقونات الصغيرة</string>
+    <string name="filter_show_all">إظهار الكل (%1$d مخفي)</string>
+    <string name="sort_default">الافتراضي</string>
+    <string name="sort_size">الحجم</string>
+    <string name="sort_type">النوع</string>
+    <string name="empty_extract_title">جاهز لاستخراج الوسائط</string>
+    <string name="empty_extract_subtitle">أدخل أي رابط أو شاركه هنا، أو استخدم المتصفح التفاعلي للصفحات التي تتطلب تسجيل دخول.</string>
+    <string name="empty_filtered_title">لا توجد وسائط مطابقة للتصفية</string>
+    <string name="empty_filtered_subtitle">جرّب تعطيل فلتر الأيقونات الصغيرة أو التبديل بين التبويبات.</string>
+    <string name="try_deep_scan_hint">لم يتم العثور على وسائط في HTML الثابت. جرّب الفحص العميق أو المتصفح التفاعلي.</string>
+
+    <!-- Multi-select & Batch Bar -->
+    <string name="selected_count">تم تحديد %1$d</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_deselect_all">إلغاء التحديد</string>
+    <string name="action_download_selected">تنزيل (%1$d)</string>
+    <string name="action_download">تنزيل</string>
+    <string name="action_preview">معاينة</string>
+    <string name="badge_hls">HLS</string>
+    <string name="badge_encrypted">مشفر / DRM</string>
+    <string name="unknown_size">الحجم غير معروف</string>
+    <string name="queued_downloads_snackbar">تمت إضافة %1$d عنصر إلى قائمة التنزيل</string>
+    <string name="storage_permission_required">يلزم إذن التخزين لحفظ الملفات في Downloads/LinkLoot</string>
+    <string name="encrypted_hls_warning">هذا البث مشفر بمفتاح حماية ولا يمكن تنزيله مباشرة.</string>
+
+    <!-- HLS Quality Sheet -->
+    <string name="hls_select_quality_title">اختر جودة الفيديو</string>
+    <string name="hls_select_quality_subtitle">اختر جودة بث غير مشفرة للتنزيل</string>
+    <string name="hls_variant_bitrate">%1$s ك.بت/ث</string>
+    <string name="hls_download_best">تنزيل أعلى جودة</string>
+
+    <!-- Media Preview Sheet -->
+    <string name="preview_title">معاينة الوسائط</string>
+    <string name="preview_counter">%1$d / %2$d</string>
+    <string name="preview_metadata">التفاصيل والبيانات الوصفية</string>
+    <string name="meta_url">الرابط المباشر</string>
+    <string name="meta_dimensions">الأبعاد</string>
+    <string name="meta_format">الصيغة</string>
+    <string name="meta_mime">نوع MIME</string>
+    <string name="meta_size">حجم الملف</string>
+    <string name="meta_duration">المدة</string>
+    <string name="meta_source_page">صفحة المصدر</string>
+    <string name="action_copy_link">نسخ الرابط</string>
+    <string name="copied_to_clipboard">تم نسخ الرابط إلى الحافظة</string>
+    <string name="cd_mute">كتم الصوت</string>
+    <string name="cd_unmute">إلغاء الكتم</string>
+    <string name="cd_play">تشغيل</string>
+    <string name="cd_pause">إيقاف مؤقت</string>
+    <string name="video_playback_error">تعذرت معاينة هذا الفيديو</string>
+
+    <!-- Interactive Browser -->
+    <string name="browser_title">المتصفح التفاعلي</string>
+    <string name="browser_captured_pill">تم التقاط %1$d صورة · %2$d فيديو</string>
+    <string name="browser_import_action">استيراد الوسائط الملتقطة</string>
+    <string name="browser_reload">تحديث</string>
+    <string name="browser_forward">الأمام</string>
+
+    <!-- Downloads Screen -->
+    <string name="downloads_active_tab">النشطة (%1$d)</string>
+    <string name="downloads_completed_tab">المكتملة (%1$d)</string>
+    <string name="action_pause_all">إيقاف الكل</string>
+    <string name="action_resume_all">استئناف الكل</string>
+    <string name="action_clear_completed">مسح القائمة</string>
+    <string name="status_queued">في الانتظار</string>
+    <string name="status_downloading">جارٍ التنزيل</string>
+    <string name="status_muxing">جارٍ الدمج إلى MP4…</string>
+    <string name="status_paused">متوقف مؤقتاً</string>
+    <string name="status_completed">تم الحفظ</string>
+    <string name="status_failed">فشل</string>
+    <string name="status_cancelled">ملغى</string>
+    <string name="action_resume">استئناف</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_open">فتح</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_delete">حذف</string>
+    <string name="hls_segments_progress">المقاطع: %1$d / %2$d</string>
+    <string name="empty_active_downloads_title">لا توجد تنزيلات نشطة</string>
+    <string name="empty_active_downloads_subtitle">ستظهر الملفات المضافة من شاشة الاستخراج هنا مع دعم الإيقاف والاستئناف.</string>
+    <string name="empty_completed_downloads_title">لا توجد تنزيلات مكتملة بعد</string>
+    <string name="empty_completed_downloads_subtitle">تُحفظ الملفات داخل مجلد Downloads/LinkLoot.</string>
+    <string name="no_viewer_app_error">لا يوجد تطبيق مثبت لفتح هذا الملف</string>
+
+    <!-- Foreground Notification -->
+    <string name="notif_channel_name">تنزيلات LinkLoot</string>
+    <string name="notif_channel_desc">يعرض تقدم تنزيلات الوسائط النشطة</string>
+    <string name="notif_downloading_title">جارٍ تنزيل %1$d ملف</string>
+    <string name="notif_muxing_text">جارٍ تجهيز الفيديو %1$s…</string>
+    <string name="notif_progress_text">%1$s · %2$d%%</string>
+
+    <!-- History Screen -->
+    <string name="history_search_placeholder">ابحث في الروابط أو النطاقات المحللة…</string>
+    <string name="history_counts">%1$d صورة · %2$d فيديو</string>
+    <string name="action_rescan">إعادة فحص</string>
+    <string name="empty_history_title">لا يوجد سجل استخراج</string>
+    <string name="empty_history_subtitle">تُحفظ الروابط المحللة محلياً لتصفحها فوراً دون إنترنت.</string>
+
+    <!-- Settings Sheet -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_theme_mode">وضع المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="settings_dynamic_color">ألوان Material You الديناميكية</string>
+    <string name="settings_dynamic_color_desc">استخدام ألوان الخلفية تلقائياً (أندرويد 12 فأحدث)</string>
+    <string name="settings_language">اللغة</string>
+    <string name="lang_system">لغة النظام</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+
+    <string name="settings_extraction">الاستخراج والتصفية</string>
+    <string name="settings_hide_small_media">تصفية الأيقونات الصغيرة</string>
+    <string name="settings_hide_small_media_desc">إخفاء وحدات التتبع والأيقونات الأصغر من 100×100 بكسل افتراضياً</string>
+    <string name="settings_auto_webview">التبديل التلقائي إلى WebView</string>
+    <string name="settings_auto_webview_desc">فحص الصفحات المعتمدة على JavaScript تلقائياً عند قلة النتائج</string>
+
+    <string name="settings_downloads">التنزيلات والتخزين</string>
+    <string name="settings_subfolder_org">تنظيم المجلدات الفرعية</string>
+    <string name="subfolder_by_type">الصور والفيديو</string>
+    <string name="subfolder_by_domain">النطاق + نوع الوسائط</string>
+    <string name="settings_concurrent_downloads">الحد الأقصى للتنزيلات المتزامنة: %1$d</string>
+
+    <string name="settings_privacy">الخصوصية والبيانات</string>
+    <string name="settings_clear_history">مسح سجل الاستخراج</string>
+    <string name="settings_clear_cookies">مسح ملفات تعريف الارتباط وذاكرة المتصفح</string>
+    <string name="history_cleared_snackbar">تم مسح سجل الاستخراج</string>
+    <string name="cookies_cleared_snackbar">تم مسح الكوكيز وذاكرة WebView</string>
+</resources>
